@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Container {
+  border: 2px solid black;
+  border-radius: .5rem;
+  box-shadow: 0px, 0px, 10px, blue;
+  padding: 1rem;
+  width: 500px;
+  background-image: linear-gradient(to right top, #cae4db, #4bcad3, #00a9ee, #007dff, #1233eb);
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.parametersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: larger;
+  font-weight: 700;
+  color:hsl(0, 0%, 15%)
+}
+
+p > span {
+  font-weight: 500;
+}
+
+h2 > span {
+  font-weight: 500;
+}
+
+.degrees {
+  font-size: 100px;
+  margin: 0 auto 4rem;
+}
+
+body {
+  background-image: url("./assets/sunnyDay.jpg");
+  background-repeat:no-repeat;
+  background-size:cover
+}
